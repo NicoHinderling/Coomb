@@ -1,2 +1,1 @@
-# hacktheplanet
-# bitcoinHack
+# bitcoinHack (Hack the Planet)
