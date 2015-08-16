@@ -25,9 +25,11 @@ def buySellExperiment(currency):
         if(n[1] < min(first95)):
             print "Buy up Bitcoin! The time is " + n[0]
             found = True
+            print n[1]
             break
         if(n[1] > max(first95)):
             print "Time to sell! The time is " + n[0]
+            print n[1]
             break
     if found == False:
         print "No deal!"
