@@ -4,7 +4,7 @@ import json
 import urllib2
 from pprint import pprint
 
-# response = urllib2.urlopen('https://blockchain.info/charts/market-price?showDataPoints=false&timespan=all&show_header=true&daysAverageString=1&scale=0&format=json&address=')
+response = urllib2.urlopen('https://blockchain.info/charts/market-price?showDataPoints=false&timespan=all&show_header=true&daysAverageString=1&scale=0&format=json&address=')
 data = json.load(response)
 
 py.sign_in('pico', 'hpr9mlm9ze')
