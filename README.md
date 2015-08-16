@@ -1,13 +1,7 @@
 #Coomb
 
-###Write up (Using Secretary Problem):
------------
+###How it works
 
-###Hack the Planet Test
-I have used the premise of the [Secretary Problem](https://en.wikipedia.org/wiki/Secretary_problem).
+Coomb uses the UCB1 Multi Arm Bandit Algorithm to process inputs of data and graph the potential of reward corresponding with each "arm" (option)!
 
-I have aggregated data from **2015-08-15 20:43:56** to **2015-08-16 04:44:50**
-
-We have enough data to accumulate until **2015-08-16 18:44:50** for this experiment.
-
-
+Based on this work: https://www.quantopian.com/posts/multi-armed-bandit
